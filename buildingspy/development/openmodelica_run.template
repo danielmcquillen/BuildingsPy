@@ -62,6 +62,7 @@ setCommandLineOptions("-d=backenddaeinfo");
 setCommandLineOptions("-d=discreteinfo");
 setCommandLineOptions("-d=stateselection");
 installPackage(Modelica, "");
+installPackage(Buildings, "");
 setMatchingAlgorithm("PFPlusExt");
 setIndexReductionMethod("dynamicStateSelection");
 
